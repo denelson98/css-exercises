@@ -7,10 +7,10 @@ and Times New Roman, with sans-serif as a fallback */
 }
 
 /* The first element: a black background and white text */
-.button1 (
-    background-color: hsl (0, 100%, 0%);
+.button1 {
+    background-color: hsl(0, 100%, 0%);
     color: hsl(0, 100%, 100%);
-)
+}
 
 /* The second element: a yellow background */
 .button2 {
