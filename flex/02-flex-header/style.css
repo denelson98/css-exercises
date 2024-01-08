@@ -1,6 +1,13 @@
+/* Logo is centered vertically and horizontally.
+list-items are horizontal, and are centered vertically inside the header.
+left-links and right-links are pushed all the way to the left and right, and 
+stay at the edge of the header when the page is resized. */
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -9,11 +16,14 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
+  margin: 12px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
 }
 
 a {
