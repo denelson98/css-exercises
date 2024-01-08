@@ -30,5 +30,5 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 32px;
-  margin-left: 330px;
+  margin-left: 330px; /* 330px works, but auto is better */
 }
