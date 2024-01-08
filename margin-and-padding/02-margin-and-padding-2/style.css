@@ -44,5 +44,5 @@ button {
   border: 1px solid #eee;
   padding: 8px;
   display: block;
-  margin: 0px auto;
+  margin: 0px auto; /* centering button left to right */
 }
