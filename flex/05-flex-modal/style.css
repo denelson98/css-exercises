@@ -38,6 +38,15 @@ body {
   margin: 16px;
 }
 
+.banner {
+  display: flex;
+  font-weight: bold;
+  font-size: large;
+  justify-content: space-between;
+  align-content: center;
+  margin: 16px 16px 8px 0px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
