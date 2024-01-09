@@ -10,16 +10,30 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* body {
+  text-align: center;
+} */
+
 .container {
   display: flex;
   justify-content: space-evenly;
 }
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+} */
 
 .packet {
   display: flex;
   flex-wrap: wrap;
   margin: 0px 52px;
 }
+
+/* .info {
+  max-width: 200px;
+} */
 
 img {
   width: 100px;
