@@ -17,6 +17,7 @@ body {
 .container {
   display: flex;
   justify-content: space-evenly;
+  margin: 0px 52px;
 }
 
 /* .container {
