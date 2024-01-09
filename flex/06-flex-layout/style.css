@@ -26,10 +26,25 @@ input {
   margin-bottom: 16px;
 }
 
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.left-links, .right-links {
+  display: flex;
+  margin: 16px;
+  gap: 16px;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
